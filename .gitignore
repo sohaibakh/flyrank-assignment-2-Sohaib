@@ -36,6 +36,10 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Project runtime config written by ProfileStore
+config.json
+config.json.tmp
+
 # Unit test / coverage reports
 htmlcov/
 .tox/

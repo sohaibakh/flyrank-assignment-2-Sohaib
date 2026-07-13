@@ -1,0 +1,6 @@
+# Runtime dependency: typed validation models.
+# Pinned to the installed v2 line; v2 is API-compatible with the code in src/.
+pydantic>=2.12,<3
+
+# Test suite runner.
+pytest>=8
