@@ -24,3 +24,7 @@ The architectural layout reveals a massive gap between a single-sentence instruc
 ## The Efficiency Paradox
 
 Round 2 was slower overall because it had significantly more heavy-lifting to do—architecting an entire robust backend package with a complete testing suite rather than dumping out a quick script. However, this extra time spent upfront entirely eliminates future technical debt. Round 1 feels fast to execute but leaves you with a brittle file that would require extensive manual refactoring to integrate safely into an application, whereas Round 2 delivered production-grade, self-verifying code immediately.
+
+# The AI Mistake
+
+The mistake that I found out was that AI tried to execute bash commands for running tests but with a wrong syntax or a non windows based syntax but more like a linux based syntax.
